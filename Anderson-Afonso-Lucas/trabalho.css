@@ -1,9 +1,29 @@
 :root {
 
-    var: #db3026;
-    var: #e88a25;
-    var: #f9e14b;
-    var: #efed89;
-    var: #7abf66;
+    --vermelho: #db3026;
+    --laranja: #e88a25;
+    --amarelo: #f9e14b;
+    --limao: #efed89;
+    --verde: #7abf66;
 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rodape {
+    background-color: var(--verde);
+    display: grid;
+    grid-template-rows:  repeat(3, 1fr);
+    grid-template-areas: 
+    "void"
+    "logo"
+    "direitos";
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
 }
