@@ -3,44 +3,41 @@
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>NutriViva</title>
-
     <link rel="stylesheet" href="trabalho.css">
-
 </head>
 
 <body>
 
-    <div>
-    <section class="cabecalho"> <!--Cabeçalho-->
-        <h2>NutriViva</h2>
-        <ul>
-        <ul style="display: flex; flex-direction: row; gap: 20%;">
-            
+<header id="cabecalho"> <!--Cabecalho-->
+    <section class="menu"> <!--menu-->
+        <img src="logo_transparente.png" alt="logo Nutriviva" style="grid-area: logo; height: 40px;">
+        <ul style="display: flex; flex-direction: row; gap: 20%; grid-area: menu;">
             <li>Início</li>
             <li>Sobre</li>
             <li>Serviços</li>
             <li>Contato</li>
-            </div>
         </ul>
     </section>
+
+</header> 
 
     <section class="apresentacao"><!--Apresentação principal-->
         <h1>Boa alimentação, novas possibilidades</h1>
         <p>Conheça a NutriViva: uma marca que valoriza escolhas equilibradas e uma relação mais consciente com a
             alimentação</p>
         <a href="Botão">Quero conhecer a NutriViva</a>
-    </section>
+    </section>    
 
     <section class="sobre"><!--sobre a marca-->
         <h1>Conheça a NutriViva</h1>
-        <p>A NutriViva nasceu com o prop[osito de aproximar as pessoas de uma alimentação variada e equilibrada.
+        <p>A NutriViva nasceu com o propósito de aproximar as pessoas de uma alimentação variada e equilibrada.
             Acreditamos que informação clara e escolhas possíveis para o dia a dia ajudam a construir hábitos
             alimentares mais conscientes</p>
-    </section>
+    </section> <br>
+
+    <section id="info">
 
     <section class="servicos"> <!--Serviços-->
         <h1>Como podemos ajudar?</h1>
@@ -52,8 +49,7 @@
         <h3>Educação alimentar:</h3>
         <p>Aprenda sobre variedade, preparo dos alimentos e hábitos alimentares por meio de conteúdo e atividades
             educativas</p>
-
-    </section>
+    </section> <br>
 
     <section class="conteudo"> <!--Conteúdo informaívo-->
         <h1>Pequenas escolhar fazem parte da rotina</h1>
@@ -63,32 +59,29 @@
         <p>Reserve um momento para planejar suas compras e refeições</p>
         <h3>Dica 3:</h3>
         <p>Valorize o preparo dos alimentos e aproveite o momento de comer</p>
-
     </section>
+
+    </section> <br>
 
     <section class="chamada"> <!--Chamada para contato-->
         <h1>Vamos conversar sobre sua alimentação?</h1>
         <p>Entre em contato para conhecer a NutriViva e saber mais sobre nossos serviços.</p>
         <a href="contato@nutriviva.example">Entrar em contato</a>
-    </section>
+    </section> <br>
 
-    <section> <!--Rodapé-->
-        <div class="rodape">
-            <div style="grid-area: logo;" id="rodape_logo">
-                <img src="logo_transparente.png" alt="logo Nutriviva" style="height: 40px;">    
-                <h2 style="grid-area: logo;"> - Nutrição e boa alimentação</h2>
-            </div>
-            <h4 style="grid-area: direitos;">Projeto acadêmico. Marca e serviços fictícios</h4>
+    <section class="rodape"> <!--Rodapé-->
+        <img src="logo_transparente.png" alt="logo Nutriviva" style="grid-area: logo; height: 80px;">    
+        <h2 style="grid-area: slogan; color: green; font-family: Verdana, Geneva, Tahoma, sans-serif;">Nutrição e boa alimentação</h2>
+        <div style="grid-area: contato;">
+            <p>Em caso de dúvidas, você também pode entrar em contato conosco em:</p> 
+            <ul>
+                <li> <img src="email.png" alt="" style="height: 30px;"><a href="">nutriviva@org.com</a></li>
+                <li> <img src="whatsapp.png" alt="" style="height: 30px;"> <a href="">(xx)xxxxx-xxxx</a></li>
+            </ul>
         </div>
-    </section>
-
-
-
-
-
-
-
-
+        <p style="grid-area: direitos;">Projeto acadêmico. Marca e serviços fictícios</p>
+        
+    </section> 
 
 
 </body>
