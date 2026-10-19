@@ -5,7 +5,7 @@
     --amarelo: #f9e14b;
     --limao: #efed89;
     --verde: #7abf66;
-
+    --sombra: #001e14;
 }
 
 * {
@@ -24,12 +24,16 @@ h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+    background-image: url(vetor.jpeg);
+}
 
 #cabecalho {
-    background-image: url(vegetais.webp);
-    height: 200pt;
+    background-image: url(verduras.jpg);
+    height: 450pt;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100%; 
+    box-shadow: 0px 0px 20px var(--sombra);
 }
 
 .menu {
@@ -45,13 +49,24 @@ h3{
     color: #34be34;
     position: fixed;
     width: 99%;
+    border: 5px solid var(--verde);
+    box-shadow: 0px 0px 20px var(--sombra);
 }
 
 #info {
     background-color: var(--laranja);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
 }
 
-.rodape {
+#servicos {
+    width: 60%;
+    margin: 30px;
+}
+
+#rodape {
     background-color: var(--verde);
     display: grid;
     grid-template-rows:  repeat(2, 1fr);
@@ -64,4 +79,14 @@ h3{
     justify-content: center;
     justify-items: center;
     padding: 20px;
+    box-shadow: 0px 0px 20px var(--sombra);
 }
+
+#quadro {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+}
+
