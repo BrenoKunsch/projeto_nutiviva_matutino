@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+background: linear-gradient(to right, #344E41, #A3B18A);
+}
+
 .menu {
     display: flex;
     align-items: center;
@@ -57,9 +61,4 @@
 
 .inicio{
 text-align: initial ;
-}
-
-body{
-background: linear-gradient(to right, #344E41, #A3B18A);
-
 }
