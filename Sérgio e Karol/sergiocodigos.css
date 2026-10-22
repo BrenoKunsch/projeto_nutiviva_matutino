@@ -1,0 +1,274 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333333;
+    line-height: 1.6;
+    width: 100%; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.topo-azul {
+    background-color: #1e88e5; 
+    padding: 15px 10px;
+    position: sticky;        
+    top: 0;
+    z-index: 100;
+}
+.conteudo-principal {
+    padding: 40px;
+    flex: 1; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    width: 100%;
+}
+
+.secao {
+    margin-bottom: 50px; 
+}
+
+.secao h2 {
+    color: #1e88e5;
+    border-bottom: 2px solid #1e88e5;
+    padding-bottom: 8px;
+    margin-bottom: 20px; 
+    font-size: 1.8rem; 
+}
+
+.secao p {
+    margin-bottom: 15px; 
+    font-size: 1.05rem; 
+}
+
+.cartao-projeto {
+    background-color: #ffffff;
+    border-left: 5px solid #1e88e5; 
+    padding: 25px; 
+    margin-bottom: 25px; 
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
+}
+
+.cartao-projeto:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+}
+
+.cartao-projeto h3 {
+    font-size: 1.3rem; 
+    margin-bottom: 12px; 
+    color: #222;
+}
+
+.rodape {
+    background-color: #0d47a1;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px; 
+    font-size: 1rem; 
+}
+
+.rodape a {
+    color: #90caf9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rodape a:hover {
+    text-decoration: underline; 
+}
+
+.menu-navegacao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+}
+
+.botao-nav {
+    color: #ffffff;
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.botao-nav:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.letrafdp {
+color: #1e88e5;
+
+}
+
+.secao-servicos {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; 
+    margin-top: 30px;
+}
+
+.item-servico {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+
+.imagem-servico {
+    width: 140px;
+    height: 180px;
+    object-fit: cover; 
+    border-radius: 25px; 
+    border: 3px solid #000; 
+    flex-shrink: 0; 
+}
+
+.conteudo-servico {
+    flex: 1; 
+    background-color: #e6e6dc62;
+    border: 3px solid #0e7be0; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.conteudo-servico h3 {
+    font-size: 1.3rem;
+    color: #000000;
+    margin: 0 0 8px 0;
+}
+
+.linha-divisoria {
+    border: none;
+    border-top: 3px solid 0e7be0;
+    margin: 0 0 12px 0;
+}
+
+.conteudo-servico p {
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.secao-dicas {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.dicas-header {
+  background-color: #f8f9fa;
+  border: 1.5px solid #2b78c5; 
+  border-radius: 8px;
+  padding: 20px 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.dicas-header h2 {
+  margin: 0 0 8px 0;
+  color: #0d47a1;
+  font-size: 1.6rem;
+}
+
+.dicas-header p {
+  margin: 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.dicas-container {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.dica-card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.dica-card.reverse {
+  flex-direction: row-reverse;
+}
+
+.dica-imagem {
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  border: 2px solid #2b78c5;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.dica-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dica-conteudo {
+  flex: 1;
+  background-color: #f8f9fa;
+  border: 1px solid #d0e1f9;
+  border-left: 5px solid #2b78c5;
+  border-radius: 8px;
+  padding: 20px 25px;
+}
+
+.dica-card.reverse .dica-conteudo {
+  border-left: 1px solid #d0e1f9;
+  border-right: 5px solid #2b78c5; 
+}
+
+.dica-conteudo h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+  color: #111;
+}
+
+.dica-conteudo p {
+  margin: 0;
+  line-height: 1.5;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 600px) {
+  .dica-card, 
+  .dica-card.reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .dica-conteudo {
+    border-left: 1px solid #d0e1f9;
+    border-right: 1px solid #d0e1f9;
+    border-top: 4px solid #2b78c5; 
+  }
+}
+
+.rodape {
+  background-color: #f8f9fa;
+  color: #333333;
+  border-top: 2px solid #1d84e4; 
+  text-align: center;
+  padding: 20px 15px;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
