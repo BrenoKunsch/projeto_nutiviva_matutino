@@ -1,3 +1,9 @@
+
+* {
+
+    box-sizing: border-box;
+
+}
 .logo {
     margin-left: 20px;
 }
@@ -6,7 +12,6 @@
     width: 150px;
     display: block;
 }
-
 * {
     box-sizing: border-box;
 }
@@ -21,6 +26,21 @@ body {
 header {
     padding: 15px 5%;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    margin: 0;
+}
+nav a {
+    margin-left: 20px;
+    color: #24553d;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a*:hover* {
+    color: #6a9f7c;
 }
 .menu {
     display: flex;
@@ -32,6 +52,11 @@ header {
     width: 180px;
     height: auto;
     display: block;
+}
+section {
+
+    padding: 60px 10%;
+
 }
 .menu_navegacao {
     display: flex;
@@ -76,4 +101,67 @@ header {
     background-color: #24553d;
     border-radius: 8px;
     text-decoration: none;
+}
+
+.botao:hover {
+    background-color: #397458;
+}
+.dicas {
+    display: flex;
+    gap: 20px;
+}
+
+.dicas div {
+    flex: 1;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.contato {
+    color: white;
+    background-color: #24553d;
+}
+
+.contato h2 {
+    color: white;
+}
+
+.contato p {
+    max-width: 765px;
+}
+footer {
+    padding: 25px 10%;
+    color: white;
+    background-color: #18382a;
+    text-align: center;
+}
+footer p {
+    margin: 5px;
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+    nav {
+        margin-top: 10px;
+    }
+    nav a {
+        margin: 5px;
+    }
+    .inicio {
+        flex-direction: column;
+        text-align: center;
+    }
+    .inicio h2 {
+        font-size: 32px;
+    }
+    .inicio img {
+        width: 100%;
+    }
+    .servicos,
+    .dicas {
+        flex-direction: column;
+    }
 }
