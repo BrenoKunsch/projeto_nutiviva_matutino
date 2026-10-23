@@ -1,0 +1,5 @@
+Larissa- Fez o README, uma parte do HTML e um pouco do formato CSS para a parte do computador.
+
+Melissa- Fez a outra parte do HTML e o CSS tanto para tablet, quanto para o celular.
+
+Davi- Ajudou com as imagens e paleta de cores do site.
