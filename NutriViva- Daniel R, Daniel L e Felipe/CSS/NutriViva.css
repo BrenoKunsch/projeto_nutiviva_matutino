@@ -342,7 +342,23 @@ body {
     background-color: #4F7047;
 }
 
-@media screen and (max-width: 764px) {
+.rodape{
+    background-color: #3a5a40;
+    align-items: center;
+    text-align: center;
+    padding: 70px;
+}
+
+.rodape p{
+    font-size: 20pt
+}
+.marca {
+    font-size: 15px;
+    color:#00ff0dee;
+    opacity: 50%;
+}
+
+@media screen and (max-width: 1023px) {
     .menu {
         display: flex;
         flex-direction: column;
@@ -380,4 +396,9 @@ body {
         linear-gradient(to top, transparent 25%, rgba(6, 18, 31, 0.363) 70%),
         url("../Imagem/tela_de_fundo_celular.png") center / 100% 100% no-repeat;
     }
+
+    .rodape p {
+        font-size: 150pt;
+    }
 }
+
