@@ -1,15 +1,16 @@
 Grupo - Anderson, Afonso e Lucas
+Resumo: Todos ajudaram...
 
 Participação do Anderson:
 
-Ajudou a escrever o texto bruto, ajudou a fazer o CSS, está fazendo o arquivo
+Ajudou a escrever o texto bruto, CSS e grande parte da estruturação do site, inicialmente criou esse arquivo também.
 
 
 Participação do Afonso:
 
-Ajudou a fazer o CSS, ajudou a procurar imagens
+Ajudou em grande parte da programação em html e css, estruturação do site, busca de imagens e arquivos, etc.
 
 
 Participação do Lucas:
 
-Ajudou a procurar cor, ajudou a procurar imagens, ajudou a fazer o CSS
+Ajudou a procurar cores e imagens e estruturou grande parte do CSS e do design do site.
